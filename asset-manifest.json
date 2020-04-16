@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/andela-challenge4/static/css/main.37af7d79.chunk.css",
+    "main.js": "/andela-challenge4/static/js/main.be809225.chunk.js",
+    "main.js.map": "/andela-challenge4/static/js/main.be809225.chunk.js.map",
+    "runtime-main.js": "/andela-challenge4/static/js/runtime-main.cf688c1d.js",
+    "runtime-main.js.map": "/andela-challenge4/static/js/runtime-main.cf688c1d.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "/andela-challenge4/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.cd024349.chunk.js": "/andela-challenge4/static/js/2.cd024349.chunk.js",
+    "static/js/2.cd024349.chunk.js.map": "/andela-challenge4/static/js/2.cd024349.chunk.js.map",
+    "index.html": "/andela-challenge4/index.html",
+    "precache-manifest.5ba42d701d83bd192bd9eebb77095dfe.js": "/andela-challenge4/precache-manifest.5ba42d701d83bd192bd9eebb77095dfe.js",
+    "service-worker.js": "/andela-challenge4/service-worker.js",
+    "static/css/2.3b6f1bda.chunk.css.map": "/andela-challenge4/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.37af7d79.chunk.css.map": "/andela-challenge4/static/css/main.37af7d79.chunk.css.map",
+    "static/js/2.cd024349.chunk.js.LICENSE.txt": "/andela-challenge4/static/js/2.cd024349.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/andela-challenge4/static/media/SEGA.12a3db8b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf688c1d.js",
+    "static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.cd024349.chunk.js",
+    "static/css/main.37af7d79.chunk.css",
+    "static/js/main.be809225.chunk.js"
+  ]
+}
