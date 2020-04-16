@@ -1,0 +1,29 @@
+.Display {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 2rem auto;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.Display .Results {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.Display .Results .Impact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Display .Results .Impact div {
+  margin: .5rem 0;
+}
+
+.Display .Impact .Title {
+  font-size: 1.3rem;
+}

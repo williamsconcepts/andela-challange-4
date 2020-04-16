@@ -1,0 +1,148 @@
+.Form {
+  display: block;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.Form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form form div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  font-size: 1.4rem;
+  margin: 1rem auto;
+}
+
+.Form form div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+[data-region-name],
+[data-avg-age],
+[data-avg-daily-income-in-usd],
+[data-avg-daily-income-population],
+[data-population],
+[data-time-to-elapse],
+[data-reported-cases],
+[data-total-hospital-beds],
+[data-period-type] {
+  width: 100%;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin: 0.4rem 0 0 0;
+  font-style: italic;
+}
+
+[data-region-name]:focus,
+[data-avg-age]:focus,
+[data-avg-daily-income-in-usd]:focus,
+[data-avg-daily-income-population]:focus,
+[data-population]:focus,
+[data-time-to-elapse]:focus,
+[data-reported-cases]:focus,
+[data-total-hospital-beds]:focus,
+[data-period-type]:focus {
+  border: 1px solid #0ccac4;
+}
+
+[data-go-estimate] {
+  align-self: center;
+  margin-top: 1rem;
+  padding: 1rem 10rem;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  outline: none;
+  color: white;
+  border: 1px solid transparent;
+  background-color: #54a63b;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+[data-go-estimate]:hover {
+  background-color: #4fce28;
+}
+
+/* @media (hover: none) and (pointer: coarse) { */
+@media (max-width: 1024px) {
+  .Form {
+    width: 90%;
+  }
+
+  .Form form div {
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+  }
+
+  [data-go-estimate] {
+    padding: 1rem 8rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Form {
+    width: 90%;
+    padding: 2.5rem;
+  }
+  .Form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Form form div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  [data-go-estimate] {
+    padding: 1rem 6rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .Form {
+    width: 80%;
+    padding: 2rem;
+  }
+
+  .Form form div {
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+
+  [data-go-estimate] {
+    /* padding: 1rem 6rem; */
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .Form {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0;
+  }
+
+  .Form form div {
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+
+  [data-go-estimate] {
+    align-self: stretch;
+    padding: 1rem 0rem;
+    font-size: 1.6rem;
+  }
+}

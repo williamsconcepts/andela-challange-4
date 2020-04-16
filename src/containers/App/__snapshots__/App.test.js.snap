@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Snapshot  1`] = `
+<div
+  className="App"
+>
+  <header
+    heading="Heading"
+  />
+  <display
+    format={[Function]}
+    results={
+      Object {
+        "data": Object {},
+        "impact": Object {},
+        "severeImpact": Object {},
+      }
+    }
+  />
+</div>
+`;

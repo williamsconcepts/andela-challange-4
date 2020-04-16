@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Form component expect to render form component correctly 1`] = `
+<div
+  className="Form"
+>
+  <h2
+    className="tc f2"
+  >
+    Enter Data
+  </h2>
+  <form
+    className="MyForm"
+  >
+    <div
+      className="div"
+    >
+      <div>
+        <label
+          htmlFor="regionName"
+        >
+          Region Name
+        </label>
+        <input
+          data-region-name={true}
+          id="regionName"
+          name="name"
+          placeholder="Example... Africa"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="avgAge"
+        >
+          Average Age
+        </label>
+        <input
+          data-avg-age={true}
+          id="avgAge"
+          name="avgAge"
+          placeholder="Example... 19.7"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="avgDailyIncomeInUSD"
+        >
+          Average Daily Income In US Dollar
+        </label>
+        <input
+          data-avg-daily-income-in-usd={true}
+          id="avgDailyIncomeInUSD"
+          name="avgDailyIncomeInUSD"
+          placeholder="Example... 5"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="avgDailyIncomePopulation"
+        >
+          Average Daily Income Population
+        </label>
+        <input
+          data-avg-daily-income-population={true}
+          id="avgDailyIncomePopulation"
+          name="avgDailyIncomePopulation"
+          placeholder="Example... 0.71"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="population"
+        >
+          Population
+        </label>
+        <input
+          data-population={true}
+          id="population"
+          name="population"
+          placeholder="Example... 66622705"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="timeToElapse"
+        >
+          Time to elapse
+        </label>
+        <input
+          data-time-to-elapse={true}
+          id="timeToElapse"
+          name="timeToElapse"
+          placeholder="Example... 58"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="reportedCases"
+        >
+          Reported Cases
+        </label>
+        <input
+          data-reported-cases={true}
+          id="reportedCases"
+          name="reportedCases"
+          placeholder="Example... 674"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          htmlFor="totalHospitalBeds"
+        >
+          Total Hospital Beds
+        </label>
+        <input
+          data-total-hospital-beds={true}
+          id="totalHospitalBeds"
+          name="totalHospitalBeds"
+          placeholder="Example... 1380614"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="selection"
+      >
+        <label
+          htmlFor="periodType"
+        >
+          Period Type
+        </label>
+        <select
+          data-period-type={true}
+          id="periodType"
+          name="periodType"
+          required={true}
+        >
+          <option
+            defaultValue={true}
+            value={null}
+          >
+            Select Period Type
+          </option>
+          <option
+            value="days"
+          >
+            days
+          </option>
+          <option
+            value="weeks"
+          >
+            weeks
+          </option>
+          <option
+            value="months"
+          >
+            months
+          </option>
+        </select>
+      </div>
+    </div>
+    <input
+      data-go-estimate={true}
+      type="submit"
+      value="Estimate"
+    />
+  </form>
+</div>
+`;
