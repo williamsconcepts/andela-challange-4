@@ -53,12 +53,12 @@
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UWEMAKAN/andela-challenge4.git"
+    "url": "git+https://github.com/williamsconcepts/andela-challenge-4.git"
   },
-  "author": "Uwem Akan Nkereuwem",
+  "author": "Ekwebelam williams chuddy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/UWEMAKAN/andela-challenge4/issues"
+    "url": "https://github.com/williamsconcepts/andela-challenge-4/issues"
   },
-  "homepage": "https://UWEMAKAN.github.io/andela-challenge4"
+  "homepage": "https://williamsconcepts.github.io/andela-challange-4"
 }
